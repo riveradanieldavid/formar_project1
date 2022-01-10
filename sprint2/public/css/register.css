@@ -1,0 +1,411 @@
+﻿/* _BODY-AUTENTIC */
+body.register {
+    background-size: 100%;
+    margin: auto;
+    background-image: url('NO/images/img-autentic-register/autentic-wireframe.jpg');
+    background-repeat: no-repeat;
+    border: solid 1px;
+    max-width: 480px;
+}
+
+/* INICIAR SESION*/
+.autenticSession {
+    text-decoration: underline;
+    color: lightslategray;
+}
+
+.autenticSession:hover {
+    opacity: 0.7;
+    color: grey;
+}
+
+/* _MAIN */
+
+
+/* _CONTAINER */
+body.register div.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ___________________________________________________________REGISTER-REGISTER */
+body.register .__register-register {
+    height: 125px;
+    padding-top: 19px;
+    text-align: center;
+}
+
+/* CREA TU CUENTA H1 */
+body.register .__register-register h1 {
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #000f;
+    padding: 7px 0;
+    width: 93%;
+    border-radius: 7px;
+    border: solid 1px;
+    background-color: #fff;
+}
+
+/* _SI-CUENTA H3 */
+body.register .__si-cuenta {
+    margin-top: 12px;
+}
+
+/* AUTENTICATE YOU H3 */
+body.register .__autentication {
+    margin-top: 7px;
+}
+
+
+/* _______________________________________________________REGISTER */
+
+/* _REQUIRED-SHOW*/
+body.register .__show,
+body.register .__required {
+    text-align: right;
+    color: lightslategray;
+    font-size: 14px;
+    margin-bottom: 11px;
+    width: 20%;
+    margin-left: auto;
+}
+
+/* _INPUTS */
+body.register .__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 101%;
+}
+
+body.register .__email input {
+    width: 100%;
+    margin: 39px 0 12px;
+}
+
+body.register .__name-surname input,
+body.register .__psw input {
+    width: 49%;
+}
+
+body.register .__show label {
+    font-size: 14px;
+}
+
+/* _PSW REQUIRED */
+body.register .__psw-required {
+    font-size: 14px;
+    color: lightslategray;
+    margin: 5px 0 0 3px;
+}
+
+body.register .__inputs input {
+    padding: 7px 9px;
+}
+
+
+/* _BORN TITLE */
+body.register .reg-title-born {
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* _BORN */
+body.register .reg-fill-born {
+    display: flex;
+    justify-content: space-around;
+    margin: 27px 0 17px;
+}
+
+body.register .reg-fill-born input {
+    width: 70px;
+    text-align: center;
+    padding: 6px 9px;
+
+}
+
+/* _GENERO TITLE */
+body.register .reg-title-genere {
+    margin-top: 25px;
+    text-align: center;
+}
+
+body.register .reg-inputs-genere {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: flex-end;
+}
+
+/* _NEW TERMS TITLE */
+body.register .reg-title-news {
+    text-align: center;
+    margin-top: 33px;
+}
+
+/* _NEWS TERMS */
+body.register .reg-inputs-news-terms {
+    height: 185px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body.register .reg-inputs-news-terms p label {
+    display: inline-block;
+    margin-left: 34px;
+    margin-top: -19px;
+}
+
+/* _REGISTER */
+body.register .reg-send-entrale {
+    margin: auto;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+body.register main span.o {
+    text-align: center;
+    margin: 14px 0;
+    display: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _HR */
+body.register main hr {
+    margin: 40px 0 31px;
+}
+
+
+/* _BENEFITS     */
+body.register main article.benefits {
+    height: 250px;
+    text-align: center;
+}
+
+body.register main article.benefits h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* _RUNER2 */
+body.register main div.runer2 {
+    width: 90%;
+}
+
+body.register main div.runer2 img {
+    width: 100%;
+    margin: 17px 0 0 10px;
+}
+
+
+body.register footer {
+    background-color: #000;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+/* _TABLET */
+
+@media (min-width: 700px) {
+
+
+
+
+    /* _BODY-AUTENTIC */
+
+    body.register {
+        max-width: 100%;
+    }
+
+    /* _CONTAINER */
+    body.register div.container {
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        font-size: 18px;
+    }
+
+    body.register main div.container div.block-autentication {
+        display: flex;
+        margin: auto;
+
+    }
+
+    /* _BLOCK1 */
+    body.register main div.container div.block1 {
+        padding: 0 3% 0;
+        width: 50%;
+    }
+
+    /* _REGISTER */
+    body.register .reg-send-entrale {
+        margin: 38px 0;
+    }
+
+    body.register main div.container div.block-autentication div.block2 {
+        padding: 0 3% 0;
+        text-align: center;
+        width: 50%;
+        /* box-shadow: inset 2px 2px 20px 0px; */
+        position: relative;
+        /* background-color: lightskyblue; */
+        border-left: solid 1px;
+
+    }
+
+    body.register main div.container div.block-autentication div.block2 div.register p {
+        font-size: 20px;
+        margin-bottom: 42px;
+    }
+
+    /* _INICIA SESION H1 */
+    body.register main div.autentic-register {
+        padding-top: 50px;
+    }
+
+    /* _NO-CUENTA H3 */
+    body.register main div.autentic-register h3.no-cuenta,
+    body.register main div.autentic-register h3.register {
+        display: none;
+    }
+
+
+    body.register main div.container div.block-autentication div.block2 div.register h3.register a {
+        font-size: 17px;
+        display: block;
+        padding: 12px;
+        color: black;
+        border: solid 1px black;
+        border-radius: 3px;
+
+    }
+
+    body.register main div.container div.block-autentication div.block2 div.register h3.register a:hover {
+        opacity: 0.4;
+        color: lightcyan;
+
+    }
+
+
+    body.register main article.benefits {
+        height: auto;
+        margin-top: 47px;
+    }
+
+
+    /* _RUNER2 */
+    body.register main div.runer2 {
+        position: absolute;
+        bottom: 95px;
+    }
+
+    body.register div.sube {
+        position: absolute;
+        bottom: 3px;
+        right: 3%;
+        left: 3%;
+        padding: 37px;
+    }
+
+
+}
+
+
+/* _LAPTOP */
+@media(min-width:576px) {
+    .container {
+        max-width: 100%;
+    }
+
+}
+
+/* _LAPTOP */
+@media(min-width:1024px) {
+    .container {
+        max-width: 80%;
+    }
+
+}

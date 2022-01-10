@@ -1,0 +1,46 @@
+/* 
+1). #0C4271: Header
+
+2). #F9DFDC: Body
+
+3). #000000: Footer 
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    /* color: white; */
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    padding: 5px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}

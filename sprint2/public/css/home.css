@@ -1,0 +1,94 @@
+.home section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3px;
+    border-bottom: 1px solid black;
+}
+
+.home .productos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.home .productos div {
+    padding: 5px;
+}
+
+.home .productos img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20%;
+    border: 1px solid #0C4271;
+}
+
+.home .productos h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.home .productos span {
+    font-size: 16px;
+}
+
+.home .productos p {
+    color: green;
+    font-size: 14px;
+}
+
+.home .productos a {
+    background-color: #0C4271;
+    border: 1px solid #0C4271;
+    text-align: center;
+    border-radius: 15%;
+}
+
+@media (min-width: 720px){
+    .home section {
+        width: 100%;
+    }
+    .home .productos {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .home .productos div {
+        width: 50%;
+    }
+    .home .productos h2 {
+        font-size: 25px;
+    }
+    .home .productos span {
+        font-size: 18px;
+    }
+    .home .productos p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px){
+    .home section {
+        width: 100%;
+    }
+    .home .productos {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .home .productos div {
+        width: 33%;
+    }
+    .home .productos h2 {
+        font-size: 28px;
+    }
+    .home .productos span {
+        font-size: 20px;
+    }
+    .home .productos p {
+        font-size: 18px;
+    }
+}

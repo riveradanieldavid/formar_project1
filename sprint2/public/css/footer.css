@@ -1,0 +1,84 @@
+/* Footer general */
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer div.menu-footer2 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* contáctanos */
+footer div.contacto {
+    display: flex;
+    width: 50%;
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+/* nosotros */
+footer div.nosotros {
+    display: none;
+
+}
+
+/* redes sociales */
+footer div.redes {
+    display: flex;
+    width: 50%;
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+/* Tablet */
+@media (min-width: 720px) {
+    footer div.menu-footer ul li.menu-carrito, .menu-sesion {
+        text-align: center;
+        font-size: 20px
+    }
+
+    footer div.contacto {
+        font-size: 20px;
+        justify-content: none;
+        padding: 0 5%;
+    }
+
+    footer div.redes {
+        font-size: 20px;
+        justify-content: none;
+        padding: 0 5%;
+    }
+
+}
+
+/* Desktop */
+@media(min-width: 1024px) {
+    footer div.menu-footer ul li.menu-carrito, .menu-sesion {
+        font-size: 22px
+    }
+
+    footer div.contacto {
+        font-size: 22px;
+        justify-content: space-around;
+        padding: 0 1%;
+        width: 33%;
+    }
+
+    footer div.nosotros {
+        display: flex;
+        width: 33%;
+        font-size: 22px;
+        justify-content: space-around;
+        padding: 0 1%;
+    }
+
+    footer div.redes {
+        font-size: 22px;
+        justify-content: none;
+        padding: 0 1%;
+        width: 33%;
+    }
+
+}

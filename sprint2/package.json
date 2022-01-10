@@ -1,0 +1,23 @@
+{
+  "name": "grupo_7-spyro_sport",
+  "version": "1.0.0",
+  "description": "Principalmente nuestra página se dedicará a la venta de indumentaria deportiva, contando con un amplio catálogo de categorias a las cuales se podrá acceder. Elegimos principalmente esta idea, debido a que queremos implementar la venta de indumentaria con marca  y logo propias. Por otro lado, nuestra idea surge, luego de tomar ideas de diferentes páginas. Nuestro proyecto está orientado principalmente al público de Jóvenes, Adolescentes y Adultos.\r Nuestra estrategia a utilizar, será principalmente las ofertas de productos discontinuos, ofertas de 2x1, ofertas de hasta el 50% de descuento en indumentaria de temporadas pasadas e incluso ofreceremos bonus de descuentos a la hora de registrarse en nuestra página web.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernesancheez/Grupo-7_Spyro-s_Sport.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernesancheez/Grupo-7_Spyro-s_Sport/issues"
+  },
+  "homepage": "https://github.com/ernesancheez/Grupo-7_Spyro-s_Sport#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

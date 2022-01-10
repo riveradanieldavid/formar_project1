@@ -1,0 +1,56 @@
+﻿/* _GENERAL */
+/* Paleta fría
+
+1). #0C4271: Header
+
+2). #F9DFDC: Body
+
+3). #000000: Footer
+
+Tipografía
+Tipo de letra: Uchen
+ */
+
+/* _GENERAL*/
+
+/* _BOXES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* _LISTS */
+ul,
+li {
+    list-style: none;
+}
+
+/* _LINKS */
+a {
+/*     text-decoration: none; */
+}
+
+/* _FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+* {
+    font-family: 'Uchen', serif;
+    
+}
+
+/* _COLORS */
+
+header{
+    background-color: #0C4271;
+}
+
+/* main {
+    background-color: #F9DFDC;
+}
+ */
+/* _INPUTS */
+input {
+    border-radius: 5px;
+}
+ 
